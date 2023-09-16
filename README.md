@@ -11,6 +11,7 @@ It will generate .lab files
 
 For Alignment , we are using MFA (Montreal forced aligner) https://montreal-forced-aligner.readthedocs.io/en/latest/first_steps/index.html#first-steps-align-train-acoustic-model
 We do not have pretrained acoustic model for Punjabi , so firstly we trained the acoustic model, for that steps are as follows:
+
 Put Speech corpus having .wav and .lab files in my_corpus/prosodylab_corpus_directory/speaker1 and provide pronunciation dictionary
 command: 
 
