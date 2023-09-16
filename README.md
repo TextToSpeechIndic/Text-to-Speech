@@ -15,6 +15,7 @@ Put Speech corpus having .wav and .lab files in my_corpus/prosodylab_corpus_dire
 command: 
 
 mfa validate ~/mfa_data/my_corpus ~/mfa_data/my_dictionary.txt
+
 mfa train ~/mfa_data/my_corpus ~/mfa_data/my_dictionary.txt ~/mfa_data/new_acoustic_model.zip 
 
 It will save the new_acoustic_model.zip in mfa_data folder
