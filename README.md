@@ -6,6 +6,7 @@
 
 ## For training:
 Download data/custom data . Audio in waves folder and transcription in metadata.csv . Put both folder in LJSpeech folder, then run
+
 python3 prepare_align.py config/LJSpeech/preprocess.yaml
 
 It will generate .lab files
